@@ -1,0 +1,57 @@
+.sidebar {
+  width: 20%;
+  background-color: #222d32;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.option {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #222d32;
+  color: white;
+}
+
+.option:hover {
+  background-color: #1e282c;
+}
+
+.subOptions {
+  margin-top: 5px;
+  background-color: #222d32;
+  color: white;
+  border-left: 2px solid #ccc;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subOption {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.subOption:hover {
+  background-color: #1e282c;
+}
+
+/* Other styles */
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.userContainer i {
+  margin-right: 10px;
+}
+
+.selectedOption {
+  background-color: #1e282c;
+}

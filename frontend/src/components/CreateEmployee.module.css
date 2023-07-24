@@ -1,0 +1,84 @@
+.createEmployeeContainer {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.formRow {
+  display: flex;
+  gap: 20px;
+}
+
+.formField {
+  flex: 1;
+  margin: 5px;
+}
+
+.formField label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formField input,
+.formField select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.skillsCheckboxContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.buttonsContainer button {
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonsContainer button:hover {
+  background-color: #101010;
+}
+
+.successMessage {
+  color: green;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.createEmployeeForm {
+  margin-left: 5px;
+  padding: 5px;
+  border-top: #d63031;
+}
+
+.saveButton {
+  background-color: rgb(51, 167, 66);
+}
+
+.cancelButton {
+  background-color: red;
+}

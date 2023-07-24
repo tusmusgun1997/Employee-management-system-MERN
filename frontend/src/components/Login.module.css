@@ -1,0 +1,83 @@
+.login-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.login-container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-container h3 {
+  font-size: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.input-container label {
+  margin-right: 10px;
+}
+
+.input-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.remember-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.remember-me-container input {
+  margin-right: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-button,
+.forgot-password-button {
+  padding: 8px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #a194ed;
+  color: #fff;
+}
+
+.forgot-password-button {
+  background-color: #ccc;
+}
+
+.top-text {
+  text-align: center;
+}
+.bottom-text {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 6px;
+  background-color: rgb(73, 159, 205);
+  color: white;
+  font-size: 16px;
+}
